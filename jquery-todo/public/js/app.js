@@ -8,10 +8,6 @@ jQuery(function ($) {
 
 	var ENTER_KEY = 13;
 	var ESCAPE_KEY = 27;
-	let todos = store('todos-jquery')
-	let todoTemplate = Handlebars.compile($('#todo-template').html())
-	let footerTemplate =Handlebars.compile($('#footer-template').html())
-	let filter = '/all'
 
 	// UTIL Method/Function extraction
 	function uuid() {
@@ -46,6 +42,10 @@ jQuery(function ($) {
 	// APP Method/Function extraction
 
 	function init() {
+		window.todos = store('todos-jquery')
+		window.todoTemplate = Handlebars.compile($('#todo-template').html())
+		window.footerTemplate =Handlebars.compile($('#footer-template').html())
+		window.filter = '/all'
 		bindEvents();
 		new Router({
 			'/:filter': function (filterParam) {
