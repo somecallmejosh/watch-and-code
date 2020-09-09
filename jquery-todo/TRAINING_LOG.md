@@ -45,3 +45,9 @@ Reading exercises
     - [Director.js docs](https://www.github.com/flatiron/director)
     - Reviewed [routing demo](https://hyperdev.com/#!/project/hurricane=flower)
 - Ready to begin the exercise section!
+
+
+# 9/9/20
+
+JQuery TODO Refactor
+- [Refactored JS](https://github.com/somecallmejosh/watch-and-code/blob/master/jquery-todo/public/js/app.js) to extract methods into standalone functions. 
