@@ -15,7 +15,7 @@ jQuery(function ($) {
 		footerTemplate: Handlebars.compile($('#footer-template').html()),
 		filter: '/all'
 	};
-	
+
 
 	// UTIL Method/Function extraction
 	function uuid() {
@@ -56,7 +56,7 @@ jQuery(function ($) {
 				App.filter = filter;
 				render();
 			}.bind(this)
-		}).init(App.filter);      
+		}).init(App.filter);
 	}
 
 	function bindEvents() {
@@ -212,7 +212,7 @@ jQuery(function ($) {
 	function destroy(e) {
 		App.todos.splice(indexFromEl(e.target), 1)
 		render()
-	} 
+	}
 
 	init();
 });
