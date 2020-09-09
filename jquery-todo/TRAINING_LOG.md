@@ -51,3 +51,9 @@ Reading exercises
 
 JQuery TODO Refactor
 - [Refactored JS](https://github.com/somecallmejosh/watch-and-code/blob/master/jquery-todo/public/js/app.js) to extract methods into standalone functions. 
+
+# 9/10/20
+
+Reset TODO Refactor to the [original app.js](https://glitch.com/edit/#!/maze-stealer?path=public%2Fjs%2Fapp.js%3A196%3A3) file.
+
+Began removal of JQuery code.
